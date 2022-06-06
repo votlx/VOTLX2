@@ -1,5 +1,5 @@
 {
-    "name": "سورس ميوزك دايموند",
+    "name": "سورس ميوزك جيبثون",
     "description": "اهلا بك في تنصيب ميوزك دايموند مجانا ",
     "logo": "https://telegra.ph/file/ea56245832047a7089e53.jpg",
     "keywords": [
@@ -8,14 +8,14 @@
         "jepthon",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/votlx/votlx2",
+    "repository": "https://github.com/VOTLX/VOTLX2",
     "env": {
         "SESSION": {
-            "description": "هنا ضع كود البايروجرام",
+            "description": "هنا ضع كود البايروكرام",
             "required": true
         },
         "API_ID": {
-            "description": "هنا ضع الايبب ايدي",
+            "description": "ايبي ايدي",
             "required": true
         },
         "HNDLR": {
@@ -36,7 +36,7 @@
             "required": true
         },
         "CHANNEL": {
-            "description": "هنا ضع معرف قناتك او جروبك بدون @",
+            "description": "هنا ضع معرف قناتك او كروبك بدون @",
             "required": true
         }        
         

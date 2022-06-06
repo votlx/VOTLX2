@@ -13,7 +13,7 @@ from pytgcalls.types.input_stream.quality import (
 from youtubesearchpython import VideosSearch
 
 from config import HNDLR, bot, call_py, CHANNEL, PHOTO_CH
-from MusicT_8_T_T.helpers.queues import QUEUE, add_to_queue, get_queue
+from Musicjepthon.helpers.queues import QUEUE, add_to_queue, get_queue
 
 from io import BytesIO
 from traceback import format_exc
@@ -23,7 +23,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from Python_ARQ import ARQ
 
-from MusicT_8_T_T.helpers.merrors import capture_err
+from Musicjepthon.helpers.merrors import capture_err
 
 ARQ_API_KEY = "HMPXNS-BDPCCB-UJKRPU-OQADHG-ARQ"
 aiohttpsession = aiohttp.ClientSession()
@@ -409,7 +409,7 @@ async def playfrom(client, m: Message):
          )
             await hmm.delete()
             await m.reply(  
-                   f"➕ يضيف {lmt} أغنية في قائمة الانتظار \n• ارسل {HNDLR}التشغيل_التلقائي لاضاف اغنيه في القائمه الانتظار**" 
+                   f"➕ يضيف {lmt} أغنية في قائمة الانتظار \n• ارسل {HNDLR}التشغيل_التلقائي لاضاف اغنيه في القائمه الانتضار**" 
                          )
         except Exception as e:
             await hmm.edit(f"**هناك خطا ** \n`{e}`")
